@@ -42,7 +42,7 @@ class BottomBarInActiveItem extends StatelessWidget {
             children: <Widget>[
               SizedBox(height: kIconSize, width: kIconSize, child: itemWidget),
               if (label != null && showLabel) ...[
-                const SizedBox(height: 5.0),
+                //const SizedBox(height: 5.0),
                 Text(
                   label!,
                   style: labelStyle ??
